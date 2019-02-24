@@ -1,0 +1,21 @@
+body,div,ul,li,ol,p,h1,h2,h3,h4,h5,h6,span,table,textarea,input,a,dt,dd,dl,img{margin: 0; padding: 0;}
+a{text-decoration: none;}
+li{list-style: none;}
+img{ border:none;}
+input,textarea{border: none;resize: none;outline: none;}
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+i{font-style: normal;}
+.fl{float: left;}
+.fr{float: right;}
+.clearfix:after{content:"";height:0;display:block;clear: both ;*zoom:1}
+html{font-size: 62.5%;}
+body{font-family: "黑体";}
+.hidden{overflow: hidden ;}
+.basep{position: relative;}
+
+.banner{
+    background: url(../img/hero-bg.jpg) no-repeat center center;
+    padding: 200px 0;
+    border-top: 5px rgba(61, 201, 179, 1) solid;
+    border-bottom: 1px #ccc solid;
+}
